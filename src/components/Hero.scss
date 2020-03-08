@@ -1,3 +1,5 @@
+@import '../styles/animations.scss';
+
 .Hero {
   height: 70vh;
   display: flex;
@@ -6,6 +8,11 @@
   padding: 0 calc(var(--spacing-unit) * 3);
   align-items: center;
   justify-content: center;
+
+  &__wave {
+    display: inline-block;
+    animation: fadeIn 0.5s ease, wave 1s ease 0.5s;
+  }
 
   &__title,
   &__subtitle {
@@ -18,9 +25,15 @@
     font-weight: 800;
     margin-top: calc(var(--spacing-unit) * 8);
     margin-bottom: calc(var(--spacing-unit) * 2);
+
+    &--text {
+      display: inline-block;
+      animation: fadeInTitle 1s ease;
+    }
   }
 
   &__subtitle {
+    animation: fadeInAfterTitle 1.5s ease;
     font-weight: 400;
     margin-bottom: calc(var(--spacing-unit) * 4);
   }
@@ -34,5 +47,9 @@
 
   &__name {
     color: var(--color-accent);
+  }
+
+  &__links {
+    animation: fadeInAfterTitle 1.5s ease;
   }
 }
