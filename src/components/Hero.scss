@@ -1,0 +1,38 @@
+.Hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 calc(var(--spacing-unit) * 3);
+  align-items: center;
+  justify-content: center;
+
+  &__title,
+  &__subtitle {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: calc(var(--spacing-unit) * 8);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    margin-bottom: calc(var(--spacing-unit) * 4);
+  }
+
+  &__name,
+  &__job-title,
+  &__company,
+  &__description {
+    font-weight: 700;
+  }
+
+  &__name {
+    color: var(--color-accent);
+  }
+}

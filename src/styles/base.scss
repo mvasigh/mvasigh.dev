@@ -1,0 +1,34 @@
+// Variables
+@import './colors.scss';
+
+// CSS Reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --spacing-unit: 8px;
+  --color-dark-blue: #{$color-dark-blue};
+  --color-light-blue: #{$color-light-blue};
+  --color-accent: #{$palette-accent};
+  --color-primary: #{$palette-primary};
+  --color-background: #{$palette-background};
+  --color-text: #{$palette-text};
+  --color-link: #{$palette-link};
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Sen', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+a,
+a:visited,
+a:active {
+  color: var(--color-link);
+}
