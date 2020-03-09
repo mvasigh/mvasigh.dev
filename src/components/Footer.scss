@@ -1,0 +1,13 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 240px;
+  padding: 0 calc(var(--spacing-unit) * 4);
+
+  @media (min-width: 720px) {
+    padding: 0;
+  }
+}

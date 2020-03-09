@@ -14,11 +14,25 @@
   --spacing-unit: 8px;
   --color-dark-blue: #{$color-dark-blue};
   --color-light-blue: #{$color-light-blue};
-  --color-accent: #{$palette-accent};
   --color-primary: #{$palette-primary};
-  --color-background: #{$palette-background};
-  --color-text: #{$palette-text};
-  --color-link: #{$palette-link};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: #{$palette-accent-dark};
+    --color-background: #{$palette-background-dark};
+    --color-text: #{$palette-text-dark};
+    --color-link: #{$palette-link-dark};
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-accent: #{$palette-accent-light};
+    --color-background: #{$palette-background-light};
+    --color-text: #{$palette-text-light};
+    --color-link: #{$palette-link-light};
+  }
 }
 
 body {
@@ -31,4 +45,5 @@ a,
 a:visited,
 a:active {
   color: var(--color-link);
+  text-decoration: none;
 }

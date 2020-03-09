@@ -1,5 +1,5 @@
 .Section:not(:nth-of-type(2)) {
-  margin-top: calc(var(--spacing-unit) * 12);
+  margin-top: calc(var(--spacing-unit) * 16);
 }
 
 .Section:last-of-type {
@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   &__emoji {
+    user-select: none;
     margin: 0 auto;
     font-size: 2.2rem;
   }
@@ -39,7 +40,7 @@
     width: 90%;
     max-width: 600px;
     content: '';
-    height: 2px;
+    height: 1px;
     background: var(--color-light-blue);
     z-index: -1;
     opacity: 0.5;
@@ -49,5 +50,10 @@
     margin: 0 auto;
     width: 100%;
     max-width: 600px;
+    padding: 0 calc(var(--spacing-unit) * 4);
+
+    @media (min-width: 720px) {
+      padding: 0;
+    }
   }
 }

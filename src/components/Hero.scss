@@ -10,8 +10,9 @@
   justify-content: center;
 
   &__wave {
+    user-select: none;
     display: inline-block;
-    animation: fadeIn 0.5s ease, wave 1s ease 0.5s;
+    animation: fadeIn 0.5s ease, wave 0.8s ease 0.5s;
   }
 
   &__title,
@@ -34,8 +35,14 @@
 
   &__subtitle {
     animation: fadeInAfterTitle 1.5s ease;
-    font-weight: 400;
     margin-bottom: calc(var(--spacing-unit) * 4);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.61;
+
+    @media (min-width: 720px) {
+      font-size: 1.5rem;
+    }
   }
 
   &__name,
@@ -50,6 +57,28 @@
   }
 
   &__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     animation: fadeInAfterTitle 1.5s ease;
+  }
+
+  &__link {
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+    &:not(:first-child) {
+      margin-left: calc(var(--spacing-unit) * 4);
+    }
+  }
+
+  &__link-icon {
+    font-size: 1.6rem;
+    transition: 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
   }
 }

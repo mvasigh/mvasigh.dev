@@ -17,28 +17,34 @@
 @keyframes fadeInTitle {
   0% {
     opacity: 0;
+    transform: translateY(calc(var(--spacing-unit) * 2));
   }
 
   50% {
     opacity: 0;
+    transform: translateY(calc(var(--spacing-unit) * 2));
   }
 
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes fadeInAfterTitle {
   0% {
     opacity: 0;
+    transform: translateY(calc(var(--spacing-unit) * 2));
   }
 
   60% {
     opacity: 0;
+    transform: translateY(calc(var(--spacing-unit) * 2));
   }
 
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
