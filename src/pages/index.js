@@ -1,8 +1,8 @@
 import React from 'react';
-
 import { Section, Hero, Content, Footer } from '../components';
 import SEO from '../components/Head';
 import profile from '../content/profile.json';
+import '../styles/base.scss';
 
 const talks = [
   {
@@ -104,7 +104,11 @@ const IndexPage = () => (
     <Footer>
       <Content>
         <p style={{ textAlign: 'center' }}>
-          With ❤️ by <a href="mailto:mehdi.vasigh@gmail.com">Mehdi Vasigh</a>,{' '}
+          With{' '}
+          <span role="img" aria-label="love">
+            ❤️
+          </span>{' '}
+          by <a href="mailto:mehdi.vasigh@gmail.com">Mehdi Vasigh</a>,{' '}
           {new Date().getFullYear()}
         </p>
       </Content>

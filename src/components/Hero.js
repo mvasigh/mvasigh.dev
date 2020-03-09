@@ -13,7 +13,9 @@ const Hero = () => {
   return (
     <section className="Hero">
       <h2 className="Hero__title">
-        <span className="Hero__wave">👋</span>{' '}
+        <span className="Hero__wave" role="img" aria-label="Wave">
+          👋
+        </span>{' '}
         <span className="Hero__title--text">Hi there!</span>
       </h2>
       <p className="Hero__subtitle">

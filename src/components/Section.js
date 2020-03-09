@@ -5,7 +5,9 @@ import './Section.scss';
 const Section = ({ emoji = '🎉', title = 'Section Title', children }) => {
   return (
     <section className="Section">
-      <span className="Section__emoji">{emoji}</span>
+      <span className="Section__emoji" role="img" aria-label={title}>
+        {emoji}
+      </span>
       <h4 className="Section__title">
         <span>{title}</span>
       </h4>
