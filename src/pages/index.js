@@ -56,7 +56,7 @@ const ProficientTech = () => (
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="Welcome" />
     <Hero />
     <Section emoji="🥞" title={`Tech Stack`}>
       <Content>
