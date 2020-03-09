@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `mvasigh.dev`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Mehdi Vasigh is a Sr. Software Engineer who is currently building amazing experiences for Arundo Analytics`,
+    author: `@mehdi_vasigh`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Mehdi Vasigh`,
+        short_name: `mvasigh.dev`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#0b132b`,
+        theme_color: `#0b132b`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
