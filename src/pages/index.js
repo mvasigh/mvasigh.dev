@@ -61,12 +61,11 @@ const IndexPage = () => (
     <Section emoji="🥞" title={`Tech Stack`}>
       <Content>
         <p>
-          Currently, I spend most of my energy building apps with{' '}
-          <strong>React</strong>, <strong>Node.js</strong>,{' '}
-          <strong>TypeScript</strong> and <strong>GraphQL</strong>. I also enjoy
-          doodling with <strong>CSS</strong> and <strong>SVG</strong> and
-          experimenting with <strong>Rust</strong> and{' '}
-          <strong>WebAssembly</strong>.
+          I spend most of my energy building apps with <strong>React</strong>,{' '}
+          <strong>Node.js</strong>, <strong>TypeScript</strong> and{' '}
+          <strong>GraphQL</strong>. I also enjoy doodling with{' '}
+          <strong>CSS</strong> and <strong>SVG</strong> and experimenting with{' '}
+          <strong>Rust</strong> and <strong>WebAssembly</strong>.
         </p>
         <p>
           I've also built software using a variety of other technologies in my
