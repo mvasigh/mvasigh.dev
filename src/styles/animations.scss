@@ -51,21 +51,23 @@
 @keyframes wave {
   0% {
     transform: rotate(0deg);
+    transform-origin: bottom right 30px;
   }
 
   40% {
-    transform: rotate(20deg);
+    transform: rotate(8deg);
   }
 
   60% {
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
   }
 
   80% {
-    transform: rotate(20deg);
+    transform: rotate(8deg);
   }
 
   100% {
     transform: rotate(0deg);
+    transform-origin: bottom right 30px;
   }
 }
