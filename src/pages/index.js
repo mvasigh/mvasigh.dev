@@ -25,11 +25,6 @@ const talks = [
     event: 'Houston React Developers',
     date: new Date('Mar 21, 2019'),
   },
-  {
-    title: 'Buttery Smooth Web UI with Off-Main-Thread Architecture',
-    event: 'UIArchConf',
-    date: new Date('Apr 1, 2020'),
-  },
 ];
 
 const sortedTalks = [...talks].sort((a, b) => {
@@ -56,7 +51,7 @@ const ProficientTech = () => (
 
 const IndexPage = () => (
   <>
-    <SEO title="Welcome" />
+    <SEO title="Mehdi Vasigh, Software Engineer & Creator" />
     <Hero />
     <Section emoji="🥞" title={`Tech Stack`}>
       <Content>
@@ -112,18 +107,6 @@ const IndexPage = () => (
         </p>
       </Content>
     </Footer>
-    {/* TODO */}
-    {/* <Section emoji="👨🏻‍💻" title={`Open Source`}>
-      <Content>
-        <p>
-          I am passionate about <strong>open source software</strong> and love
-          to contribute! Here are some projects I have contributed to:
-        </p>
-      </Content>
-    </Section>
-    <Section emoji="📝" title={`Blog Posts`}>
-      Hello world!
-    </Section> */}
   </>
 );
 
