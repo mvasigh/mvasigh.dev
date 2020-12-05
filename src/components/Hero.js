@@ -1,5 +1,11 @@
 import React from 'react';
-import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi';
+import {
+  FiTwitter,
+  FiGithub,
+  FiLinkedin,
+  FiTwitch,
+  FiYoutube,
+} from 'react-icons/fi';
 import profile from '../content/profile.json';
 import './Hero.scss';
 
@@ -7,6 +13,8 @@ const siteIcons = {
   twitter: FiTwitter,
   github: FiGithub,
   linkedin: FiLinkedin,
+  twitch: FiTwitch,
+  youtube: FiYoutube,
 };
 
 const Hero = () => {

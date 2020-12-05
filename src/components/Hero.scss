@@ -76,6 +76,7 @@
   &__link-icon {
     font-size: 1.6rem;
     transition: 0.2s ease;
+    will-change: transform;
 
     &:hover {
       transform: translateY(-2px);
