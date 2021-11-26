@@ -28,10 +28,15 @@ const Hero = () => {
       </h2>
       <p className="Hero__subtitle">
         My name is <span className="Hero__name">{profile.name}</span>, and I am
+        a <span className="Hero__job-title">software engineer</span> and{' '}
+        <span className="Hero__job-title">digital artist</span>
+      </p>
+      {/* <p className="Hero__subtitle">
+        My name is <span className="Hero__name">{profile.name}</span>, and I am
         a <span className="Hero__job-title">{profile.title}</span> currently{' '}
         <span className="Hero__description">{profile.description}</span> for{' '}
         <span className="Hero__company">{profile.company}</span>
-      </p>
+      </p> */}
       <ul className="Hero__links">
         {Object.entries(profile.links).map(([site, url]) => {
           const Icon = siteIcons[site];

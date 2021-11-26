@@ -1,8 +1,9 @@
 {
   "name": "Mehdi Vasigh",
-  "title": "Sr. Software Engineer",
-  "description": "building a smart platform",
-  "company": "Mailchimp",
+  "title": [
+    "software engineer",
+    "digital artist"
+  ],
   "links": {
     "twitch": "https://twitch.tv/mvasigh",
     "twitter": "https://twitter.com/mehdi_vasigh",
