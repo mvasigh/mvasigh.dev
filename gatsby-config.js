@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `mvasigh.dev`,
-    description: `Mehdi Vasigh is a Sr. Software Engineer who is currently building a smart platform for Mailchimp`,
+    description: `Mehdi Vasigh is a software engineer, tech speaker and digital artist based out of Atlanta, GA`,
     author: `@mehdi_vasigh`,
   },
   plugins: [
